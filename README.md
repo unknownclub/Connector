@@ -25,7 +25,7 @@ Minify Python Dropper
 - pip install pyinstaller
 - C:\Python27\Scripts\pyinstaller.exe client.py --onefile --noconsole
 
-# How to build
+# How to run
 - Server: python -W ignore listener.py
 - WooDoo: python woodoo.py (Enter woodoo port)
 
