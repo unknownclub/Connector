@@ -85,11 +85,14 @@ class Listener:
                     continue
                 cmd = cmd.split(" ")
 
-                if cmd[0] == "num_look":
-                    global glob_num_look
-                    glob_num_look = int(cmd[1])
-                    global num_look_flag
-                    num_look_flag = True
+                if cmd[0] == "num_look" and len(cmd) > 1:
+                    if int(cmd[1]) >= len(client_connections):
+                        print "num_look not found."
+                    else:
+                        global glob_num_look
+                        glob_num_look = int(cmd[1])
+                        global num_look_flag
+                        num_look_flag = True
                     continue
                 if cmd[0] == "num_fetch":
                     print "Current num_look is: " + str(glob_num_look)
