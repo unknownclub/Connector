@@ -20,6 +20,11 @@ Minify Python Dropper
 - exit (when control target) ****shutdown target (back to re-connect mode)
 - bye ****shutdown server
 
+# How to build
+
+- pip install pyinstaller
+- C:\Python27\Scripts\pyinstaller.exe client.py --onefile --noconsole
+
 # Author
 - Anuwat Khongchuai (un4ckn0wl3z)
 
