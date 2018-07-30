@@ -1,6 +1,11 @@
 # Connector
 Minify Python Dropper
 
+# NOTE
+- For education purpose only.
+- Server and WooDoo only work on Linux.
+- Client designed for compatible with Windows only.
+
 # Feature
 - execute target system commands
 - persistence in system
