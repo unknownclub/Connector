@@ -109,7 +109,7 @@ def watch_dog(delay):
             sock = socket.create_connection(("", 2509), timeout=2)
             sock.settimeout(1)
         except Exception:
-            print("EX")
+            #print("EX")
             os.system('Taskkill /PID %d /F' % os.getpid())
 
 
