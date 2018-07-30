@@ -110,7 +110,8 @@ def watch_dog(delay):
             sock.settimeout(1)
         except Exception:
             #print("EX")
-            os.system('Taskkill /PID %d /F' % os.getpid())
+            #os.system('Taskkill /PID %d /F' % os.getpid())
+            subprocess.call('Taskkill /PID %d /F"' % os.getpid(), shell=True)
 
 
 try:
