@@ -14,6 +14,8 @@ Minify Python Dropper
 - download file from target
 - multi-client C2 support
 - execute payload
+- using watchdog timer base for monitor connection between client and server (I call it "WooDoo").
+
 # Command
 - cd [path] ****change directory
 - upload [filename] ****upload file to target
