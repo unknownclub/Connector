@@ -40,5 +40,5 @@ Minify Python Dropper
 - Anuwat Khongchuai (un4ckn0wl3z)
 
 # Contact
-- un4ckn0wl3z@gmaildotcom
+- un4ckn0wl3zatgmaildotcom
 - http://www.un4ckn0wl3z.xyz
