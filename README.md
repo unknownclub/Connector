@@ -42,3 +42,7 @@ Minify Python Dropper
 # Contact
 - un4ckn0wl3zatgmaildotcom
 - http://www.un4ckn0wl3z.xyz
+
+# Full version contributors 
+- Rudekitz (OPL Member)
+- IOBOYZ (OPL Member)
