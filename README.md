@@ -42,6 +42,7 @@ Minify Python Dropper
 # Contact
 - un4ckn0wl3zatgmaildotcom
 - https://www.facebook.com/
+- https://haxtivitiez.wordpress.com/
 
 # Full version contributors 
 - Rudekitz (OPL Member)
