@@ -41,7 +41,7 @@ Minify Python Dropper
 
 # Contact
 - un4ckn0wl3zatgmaildotcom
-- https://hacked.un4ckn0wl3z.xyz/
+- https://www.facebook.com/
 
 # Full version contributors 
 - Rudekitz (OPL Member)
